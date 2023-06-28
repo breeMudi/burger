@@ -3,7 +3,7 @@
     color: #ffffff;
     margin: 0;
     padding: 0;
-    font-size: 18px;
+    font-size: 1.1rem;
     font-family: 'Outfit', sans-serif;
 }
 
@@ -14,39 +14,36 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding: 20px; */
-    }
+}
+
+.float { /* float container here is to center the main div */
+    height: 89vh; 
+    margin: 6vb;
+    border: 2px solid red;
+    position: relative;
+}
 
 .main {
     background-color: #242021 ;
-    /* position: relative; */
-    /* overflow: hidden; */
-    height: 90vh;
-    width: 100%;
-    margin: 5vb;
-    padding: 50px 100px;
+    padding: 3rem 4rem;
+    height: 93%;
 }
 
-
-nav, section {
-    z-index: 1;
-}
 
 /* Nav Bar */
 .left img {
-    width: 100px;
-    height: 100px;
+    width: 6rem;
 }
 .right img {
-    width: 30px;
-    height: 30px;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 ul {
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 2rem;
 }
 
 nav {
@@ -58,8 +55,8 @@ nav {
 .bg-design {
     position: absolute;
     background-image: url(images/bg.svg);
-    height: 70%;
-    width: 60%;
+    height: 75%;
+    width: 100%;
     z-index: 1;
     background-repeat: no-repeat;
     background-size: contain;
@@ -70,47 +67,56 @@ nav {
 }
 
 .text {
-    margin-top: 30px;
+    margin-top: 3rem;
     display: flex;
     align-items: center;
+    gap: 5rem;
     padding-left: 10%;
+    border: 2px solid red;
+    height: 50%;
 }
 blockquote {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 500;
-    width: 60%;
+    line-height: 2.5rem;
+    /* width: 60%; */
 }
 .text p {
     margin-top: 20px;
-    width: 60%;
+    /* width: 60%; */
 }
+
+.text > div {width: 60%;}
+.text img {height: 100%;}
 
 .btn {
     background-color: #d1a739;
-    width: 150px;
-    margin-top: 50px;
+    width: 10rem;
+    height: 3rem;
+    margin-top: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    height:45px;
     border-radius: 20px;
 }
 
+
+/* bottom */
 .bottom img {
-    width: 100px;
+    width: 4rem;
 }
 .bottom {
     display: flex;
-    margin-top: 50px;
     position: absolute;
-    bottom: 50px;
-    gap: 50px;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 0px;
+    gap: 4rem;
 }
 
 .bottom > * {
-    width: 350px;
-    height: 250px;
-    /* border: 2px solid green; */
+    width: 15rem;
+    height: 12rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -120,8 +126,7 @@ blockquote {
 }
 
 #arrow {
-    width: 30px;
-    height: 30px;
+    width: 2rem;
 }
 
 .readmore {
