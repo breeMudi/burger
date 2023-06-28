@@ -14,14 +14,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* padding: 20px; */
     }
 
 .main {
     background-color: #242021 ;
-    position: relative;
+    /* position: relative; */
     /* overflow: hidden; */
+    height: 90vh;
     width: 100%;
-    margin: 50px;
+    margin: 5vb;
     padding: 50px 100px;
 }
 
@@ -101,7 +103,7 @@ blockquote {
     display: flex;
     margin-top: 50px;
     position: absolute;
-    bottom: -50px;
+    bottom: 50px;
     gap: 50px;
 }
 
