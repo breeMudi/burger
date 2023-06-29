@@ -3,7 +3,7 @@
     color: #ffffff;
     margin: 0;
     padding: 0;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-family: 'Outfit', sans-serif;
 }
 
@@ -18,21 +18,32 @@
 
 .float { /* float container here is to center the main div */
     height: 89vh; 
+    width: 100%;
     margin: 6vb;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     position: relative;
 }
 
 .main {
     background-color: #242021 ;
-    padding: 3rem 4rem;
+    padding: 2rem 5rem;
     height: 93%;
+    position: relative;
+    box-shadow: 0px 0px 30px 1px #000000;
+    margin: 10px;
+    overflow: hidden;
 }
 
 
 /* Nav Bar */
+.left {
+    gap: 2rem;
+}
 .left img {
     width: 6rem;
+}
+.right {
+    gap: 2rem;
 }
 .right img {
     width: 1.5rem;
@@ -43,7 +54,7 @@ ul {
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 2rem;
+    z-index: 1;
 }
 
 nav {
@@ -51,49 +62,63 @@ nav {
     justify-content: space-between;
 }
 
+.phone {
+    display: flex;
+    gap: 10px;
+}
+
 /* Main Section */
 .bg-design {
     position: absolute;
     background-image: url(images/bg.svg);
-    height: 75%;
+    height: 100%;
     width: 100%;
-    z-index: 1;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
-    top: -2px;
+    top: -10%;
     right: -10px;
-    opacity: 0.5;
+    z-index: 0;
+    /* opacity: 0.5; */
 }
 
 .text {
-    margin-top: 3rem;
+    margin-top: 2rem;
     display: flex;
-    align-items: center;
+    align-items: top    ;
+    justify-content: space-between;
     gap: 5rem;
-    padding-left: 10%;
-    border: 2px solid red;
+    /* width: 80%; */
+    padding-left: 15%;
+    /* border: 2px solid red; */
     height: 50%;
+    z-index: 1;
 }
 blockquote {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     font-weight: 500;
-    line-height: 2.5rem;
-    /* width: 60%; */
+    line-height: 3rem;
+    width: 90%;
+    width: 80%;
 }
 .text p {
-    margin-top: 20px;
+    margin-top: 10%;
     /* width: 60%; */
 }
 
-.text > div {width: 60%;}
-.text img {height: 100%;}
+.text > div {width: 40%;}
+.text img {
+    height: 55%;
+    position: absolute;
+    right: 10%;
+    top: 20%;
+}
 
 .btn {
     background-color: #d1a739;
     width: 10rem;
     height: 3rem;
-    margin-top: 2rem;
+    margin-top: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,7 +128,7 @@ blockquote {
 
 /* bottom */
 .bottom img {
-    width: 4rem;
+    width: 25%;
 }
 .bottom {
     display: flex;
@@ -121,16 +146,64 @@ blockquote {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 12%;
     border-radius: 30px;
     background-image: linear-gradient(-45deg, #382f30, #272324);
 }
 
 #arrow {
-    width: 2rem;
+    width: 1.2rem;
 }
 
 .readmore {
     color: #d1a739;
     display: flex;
     justify-content: center;
+    font-size: 0.8rem;
+}
+
+@media (max-width:897px) {
+    .container {
+        min-height: fit-content;
+        /* display: block; */
+    }
+    .float{
+        margin: 0;
+        height: 100%;
+    }
+    .main {
+        padding: 0;
+        padding-bottom: 3%;
+    }
+    ul {display: none;}
+    .bottom {
+        /* flex-direction: column; */
+        gap: 0;
+        width: 100%;
+        position: relative;
+    }
+    .bottom > * {
+        width: 30vb;
+        border-radius: 0px;
+    }
+    .bg-design{
+        /* background-size: cover; */
+        height: 50vh;
+        width: 100%;
+        z-index: 0;
+    }
+    .text{
+        flex-direction: column-reverse;
+        z-index: 2;
+        /* padding: 0; */
+    }
+    .text img {
+        z-index: 1;
+        position: static;
+        width: 70%;
+        margin-left: 20%;
+    }
+    .text > div {
+        width: 90%;
+    }
 }
