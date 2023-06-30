@@ -36,6 +36,7 @@
 
 
 /* Nav Bar */
+.notice{display: none;}
 .left {
     gap: 2rem;
 }
@@ -205,5 +206,11 @@ blockquote {
     }
     .text > div {
         width: 90%;
+    }
+
+    /* keys */
+    .notice{
+        display: flex;
+        justify-content: space-between;
     }
 }
