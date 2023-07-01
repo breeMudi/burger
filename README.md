@@ -16,19 +16,19 @@ A replication of a static web page and conversion to a responsive design.
 
 ### Screenshot
 
-![The desktop view of Burger page as designed(./images/page.png)
+![The desktop view of Burger page as designed(./page.jpg)
 
-![The desktop view of Burger page as created in this project(./images/desktop.png)
+![The desktop view of Burger page as created in this project(./desktop.png)
 
-![The mobile view of Burger page as created in this project(./images/mobile.png)
+![The mobile view of Burger page as created in this project(./mobile.png)
 
-![The mobile view of Burger page as created in this project(./images/mobile2.png)
+![The mobile view of Burger page as created in this project(./mobile2.png)
 <!-- ![](./desktop_view.jpg)![desktop_view](https://user-images.githubusercontent.com/65234249/224862538-59bda0ed-f0b9-41c6-9706-4af1b6f8087b.png) -->
 
 ### Links
 
-- Solution URL: [Link to my solution git repo](https://github.com/breeMudi/profile-card-component_2_20/tree/main)
-- Live Site URL: [Link to project view on git-hub live server](https://breemudi.github.io/profile-card-component_2_20/)
+- Solution URL: [Link to my solution git repo](https://github.com/breeMudi/burger)
+- Live Site URL: [Link to project view on git-hub live server](https://breemudi.github.io/burger/)
 
 ## My process
 
@@ -55,7 +55,6 @@ The various steps in this project include:
 
 ## Author
 
-- Frontend Mentor - [@breeMudi](https://www.frontendmentor.io/profile/breeMudi)
 - Twitter - [@Bridgetmudiaga](https://www.twitter.com/Bridgetmudiaga)
 
   
