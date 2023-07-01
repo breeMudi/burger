@@ -16,13 +16,20 @@ A replication of a static web page and conversion to a responsive design.
 
 ### Screenshot
 
-![The desktop view of Burger page as designed(./page.jpg)
+This is the desktop view as designed 
 
-![The desktop view of Burger page as created in this project(./desktop.png)
+![The desktop view of Burger page as designed](./page.jpg)
 
-![The mobile view of Burger page as created in this project(./mobile.png)
+This is the desktop view as recreated on the using HTML, css
 
-![The mobile view of Burger page as created in this project(./mobile2.png)
+![The desktop view of Burger page as created in this project](./desktop.png)
+
+Subsequent mobile view alongside the javascript enabled navigation bar
+
+![The mobile view of Burger page as created in this project](./mobile.png)
+
+![The mobile view of Burger page as created in this project](./mobile2.png)
+
 <!-- ![](./desktop_view.jpg)![desktop_view](https://user-images.githubusercontent.com/65234249/224862538-59bda0ed-f0b9-41c6-9706-4af1b6f8087b.png) -->
 
 ### Links
