@@ -102,6 +102,10 @@
       </div>
     </div>
     <script src="main.js"></script>
-    <script src="https://trusted.example.com/path/jsonp?callback=alert(document.domain)//"></script>
+    <!-- <script src="https://trusted.example.com/path/jsonp?callback=alert(document.domain)//"></script> -->
+    <script
+      nonce="random123"
+      src="https://trusted.example.com/trusted_script.js"
+    ></script>
   </body>
 </html>
